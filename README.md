@@ -1,69 +1,47 @@
-# React + TypeScript + Vite
+# Brandon's Cool React Components  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Brandon's Cool React Components** repository!  
 
-Currently, two official plugins are available:
+This is a collection of React components that I have created during my day-to-day development. Each component is designed to be reusable, efficient, and showcase creative solutions to common development challenges.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose  
 
-## Expanding the ESLint configuration
+The goal of this repository is to:  
+- Share innovative React components.  
+- Provide examples of clean and maintainable code.  
+- Inspire other developers with creative ideas.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Components  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Each component in this repository is documented with:  
+- A description of its functionality.  
+- Code examples for implementation.  
+- Any dependencies or setup instructions.  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Getting Started  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+To use the components in your project:  
+1. Clone the repository:  
+  ```bash  
+  git clone https://github.com/bhaak/BrandonsCoolReactComponents.git  
+  ```  
+2. Navigate to the repository folder:  
+  ```bash  
+  cd BrandonsCoolReactComponents  
+  ```  
+3. Feel free to copy and expand on each component that you choose
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contributing  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+If you have suggestions or improvements for any component, feel free to open an issue or submit a pull request.  
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## License  
+
+This repository is licensed under the MIT License.  
+
+---  
+
+Thank you for visiting! I hope you find these components useful and inspiring.  
+You can find more information about me at [BrandonHaak.com](https://brandonhaak.com)
+
+-Brandon Haak + Copilot
